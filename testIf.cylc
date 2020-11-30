@@ -1,0 +1,59 @@
+4 dup 10 ==
+{ 1 0 / }
+print
+{ 6 + dup 10 < { 10 > } { 10 == } if }
+print
+if
+print
+16 dup 5 ==
+{ 1 0 / }
+{ 6 + dup 10 < { 10 > } { 10 == } if }
+print
+if
+print
+3 4 < print
+{ #t } { #f } print if
+print
+3 4 > print
+{ #t } print { #f } if
+print
+3 4 <=
+{ #t } print { #f } if
+print
+3 4 >=
+{ #t } print { #f } if
+print
+7 7 == print
+{ #t } { #f } if
+print
+{ 3 } print { 4 } >= print
+{ #t } { #f } if
+print
+clear
+<
+{ #t } print { #f } if
+print
+clear
+#t 5 <
+{ #t } { #f } if
+print
+clear
+3 #f >=
+{ #t } print { #f } if
+print
+clears
+clear
+> < >= <= == print swap dup exec file drop print
+1 >
+print
+2 <
+print
+3 >=
+print
+4 <=
+print
+5 ==
+print
+clear
+5 8
+> print

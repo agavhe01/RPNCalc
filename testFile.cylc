@@ -1,0 +1,47 @@
+5 6 +
+{ fact.cylc } print file
+print
+clear
+{ testExec.cylc }
+print
+file
+{ testArithmetic.cylc }
+file
+{ testExec.cylc }
+file
+file
+{ testIf.cylc }
+file
+4 { fact.cylc } print { fact.cylc } print
+3 print
+{ fib.cylc } file print
+clear
+4 print
+{ fib.cylc } file print
+4 print
+{ fib.cylc } file print
+7
+print
+{ fib.cylc } file
+10 { n_fibs.cylc }
+print file print
+8
+{ n_fibs.cylc } print
+clear
+clear
+print
+file
+#t
+#f
+print
+file
+print
+5
+{ notfile.txt }
+print
+file
+{ notfile.cylc }
+print
+file
+print
+quit
